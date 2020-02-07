@@ -1,4 +1,5 @@
 //This Change is made 0n 7th Feb2020
+
 public with sharing class ContactController {
     @AuraEnabled(cacheable=true)
     public static List<Contact> getContactList() {
@@ -30,3 +31,4 @@ public with sharing class ContactController {
         ];
     }
 }
+//Changes at the end
